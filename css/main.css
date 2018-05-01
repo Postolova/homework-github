@@ -1,9 +1,10 @@
 body {
 	background: #E8FFE8;
 }
-ul {
-	float: left;
+
+li {
+	list-style-type: none;
 }
-input {
-	float: left;
+li:before {
+	content: "\2713";
 }
