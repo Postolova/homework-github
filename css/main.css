@@ -1,10 +1,20 @@
 body {
-	background: #E8FFE8;
+	background: #EDFCFE;
+}
+
+ul {
+	border: 1px solid #4ACE02;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #E8E8E8;
 }
 
 li {
-	list-style-type: none;
 }
-li:before {
+
+p:before {
 	content: "\2713";
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #4ACE02
 }
